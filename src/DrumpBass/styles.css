@@ -1,0 +1,77 @@
+
+
+.medio{
+  margin: 0;
+  left:25%;
+  width: 100%;
+  height: 100%;
+}
+
+.drum-pad{
+  padding-left: 2%;
+  margin-top: 3px;
+  padding-right: 2%;
+  margin-bottom: 3px;
+  padding-right: 2%;
+  margin-left: 1px;
+  padding-bottom: 2%;
+  margin-right: 1px;
+  min-width: 150px;
+  text-align:center;
+  text-decoration: none;
+  font-size: 50px;
+  font-style: oblique;
+  font-family:Courier, monospace;
+  transition-duration: .5s;
+}
+
+
+button{
+  background-color: rgb(44, 35, 62);
+  color: rgb(43, 112, 46);
+  
+}
+
+button:hover{
+  background-color: rgb(33, 16, 112);
+  color: white;
+}
+button:active{
+  background-color: rgb(26, 26, 26);
+  border-width: 10px;
+  transition: border-width .1s;
+}
+
+.borderss{
+    text-align: center;
+  margin: 0;
+  top: 50%;
+  border: 40px solid;
+  border-radius: 100px;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  /*para encajar una imagen en cualquier lado */
+  background-image: url("https://thumbs.dreamstime.com/b/ondas-ac%C3%BAsticas-1148752.jpg");
+  background-size:cover;
+  background-repeat:round;
+  background-position-x: center;
+  
+}
+h2{
+  color: aqua;
+  transition: color 3s;
+  text-align:center;
+}
+/*hover seria cuando esta el puntero sobre el boton.......*/
+h2:hover{
+  color: rgb(11, 13, 13);
+  transition: color 2s;
+}
+
+body{
+  margin: 0;
+  background-color:aqua;
+}
+h1{
+  color:red;
+}
